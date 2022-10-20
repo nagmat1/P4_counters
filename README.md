@@ -6,6 +6,11 @@ whenever we dump the table in bfrt_python we will not the see the latest values 
 bfrt.in_network_caching.pipe.Ingress.mirror_port_ekl> dump()
 ```
 
+The reason why we don't see the counter values is : 
+
+{bold} Counters are incremented by the data plane asynchronously and the fields are volatile. 
+
+
 To see the latest values we need to insert some parameters : 
 ```
 bfrt.in_network_caching.pipe.Ingress.mirror_port_ekl> dump(table=True, from_hw=True)
