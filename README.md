@@ -34,7 +34,7 @@ Total will be 5069075360 which is more less than the mirrored packets.
 
 Q: What is the latency of updating the counters in Tofino 1? 
 
-A: It varies between 6-8 clocks. 
+A: It varies between 6-8 clocks per stage.  
 
 
 
