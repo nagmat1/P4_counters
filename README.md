@@ -24,6 +24,8 @@ hdr.ipv4.src_addr    filesize    mirror_session      $COUNTER_SPEC_BYTES    $COU
 ----- mirror_port_ekl Dump End -----
 ```
 
+As shown above, our table mirror_port_ekl has been extended by ``` counter_spec_bytes``` and ``` counter_spec_pkts ``` . 
+
 As shown in the example we have mirrored 5000000000 bytes file.
 
 Headers ==> 3453768 * 20 = 69075360
