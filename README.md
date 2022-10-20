@@ -24,8 +24,19 @@ hdr.ipv4.src_addr    filesize    mirror_session      $COUNTER_SPEC_BYTES    $COU
 ----- mirror_port_ekl Dump End -----
 ```
 
-As shown in the example we have mirrored 5000000000 bytes file. 
+As shown in the example we have mirrored 5000000000 bytes file.
+
 Headers ==> 3453768 * 20 = 69075360
+
 Data    ==> 5000000000. 
+
 Total will be 5069075360 which is more less than the mirrored packets. 
+
+Q: What is the latency of updating the counters in Tofino 1? 
+
+A: It varies between 6-8 clocks. 
+
+
+
+
 
