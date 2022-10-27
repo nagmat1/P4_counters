@@ -21,9 +21,9 @@ Entry data (action : NoAction):
     $COUNTER_SPEC_PKTS             : 0
 
 pipe.Ingress.mirror_port_ekl entries for action: Ingress.acl_mirror
-hdr.ipv4.src_addr    filesize    mirror_session      $COUNTER_SPEC_BYTES    $COUNTER_SPEC_PKTS
--------------------  ----------  ----------------  ---------------------  --------------------
-0xC0A80102           0x00000000  0x05                         5241763862               3453768
+hdr.ipv4.src_addr    filesize            mirror_session      $COUNTER_SPEC_BYTES    $COUNTER_SPEC_PKTS
+-------------------  ------------------  ----------------  ---------------------  --------------------
+0xC0A80102           0x00000004A817C800  0x05                         5241764142               3453772
 
 
 ----- mirror_port_ekl Dump End -----
